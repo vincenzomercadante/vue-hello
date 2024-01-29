@@ -6,7 +6,7 @@ const app = createApp({
   data() {
     return {
       title: {
-        mainText: "Primo titolo con Vue.js",
+        mainText: "First title with Vue.js",
         titleClasses: ["display-3", "text-success", "fw-bold"],
       },
       src: "./img/logo.png",
@@ -15,5 +15,5 @@ const app = createApp({
   },
 });
 
-// esecuzione del codice dell'app
+// app mounting
 app.mount("#app");
