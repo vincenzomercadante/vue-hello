@@ -6,8 +6,10 @@ const app = createApp({
   data() {
     return {
       title: "Primo titolo con Vue.js",
+      src: "./img/logo.png",
     };
   },
 });
 
+// esecuzione del codice dell'app
 app.mount("#app");
