@@ -5,8 +5,12 @@ const { createApp } = Vue;
 const app = createApp({
   data() {
     return {
-      title: "Primo titolo con Vue.js",
+      title: {
+        mainText: "Primo titolo con Vue.js",
+        titleClasses: ["display-3", "text-success", "fw-bold"],
+      },
       src: "./img/logo.png",
+      name: "",
     };
   },
 });
