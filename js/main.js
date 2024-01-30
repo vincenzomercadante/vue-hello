@@ -9,7 +9,7 @@ const app = createApp({
         mainText: "First title with Vue.js",
         titleClasses: ["display-3", "text-success", "fw-bold"],
       },
-      src: "./img/logo.png",
+      src: "logo.png",
       name: "",
     };
   },
